@@ -6,7 +6,7 @@ set -u
 set -o pipefail
 
 stage=6   # stage1-4: prepared data, stage:5 collect stats, stage:6 train kws, stage:7 decoding, stage:8 scoring
-stop_stage=6 # stage 10 is train stage, stage11 inference stage and stage12 is score stage
+stop_stage=6
 ngpu=1
 nj=32
 
