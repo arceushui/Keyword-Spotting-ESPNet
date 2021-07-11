@@ -128,7 +128,8 @@ See [ESPnet2](https://espnet.github.io/espnet/espnet2_tutorial.html).
 - Integrated with [wandb](https://espnet.github.io/espnet/espnet2_training_option.html#weights-biases-integration)
 
 ## Installation
-- If you intend to do full experiments including DNN training, then see [Installation](https://espnet.github.io/espnet/installation.html).
+- If you intend to do full experiments including DNN training, then see [Installation](https://espnet.github.io/espnet/installation.html). In our project, we compiled our own kaldi although it is not required by espnet2 (Use this method to install the espnet2 in out project)
+
 - If you just need the Python module only:
     ```sh
     pip install espnet
@@ -148,7 +149,37 @@ See [ESPnet2](https://espnet.github.io/espnet/espnet2_tutorial.html).
     There are some required packages depending on each task other than above. If you meet ImportError, please intall them at that time.
 - Once installed, run `wandb login` to enable tracking runs using W&B. 
 ## Usage
+
+### Espnet2 Tutorial (It is just a reference to the toolkit which is not required by our project)
 See [Usage](https://espnet.github.io/espnet/tutorial.html).
+
+### Keyword Spotting Transformer
+1. Change to the directory below.
+
+```sh
+cd egself/asc029-kws/kws/    
+```
+
+2. Read `README.md` for more usage.
+
+### Speech Enhancement Bi-LSTM
+1. Change to the directory below.
+
+```sh
+cd egself/asc029-kws/enh/    
+```
+
+2. Read `README.md` for more usage.
+
+### Joint-training Speech Enhancement & Keyword Spotting
+1. Change to the directory below.
+
+```sh
+cd egself/asc029-kws/enh-kws/
+```
+
+2. Read `README.md` for more usage.
+
 
 ## Docker Container
 
