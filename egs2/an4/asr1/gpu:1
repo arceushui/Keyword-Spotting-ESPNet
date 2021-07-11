@@ -1,0 +1,4 @@
+# JOB=1:32 exp/asr_train_raw_en_bpe30/inference_lm_lm_train_lm_en_bpe30_valid.loss.ave_asr_model_valid.acc.best/train_dev/logdir/asr_inference.JOB.log python3 -m espnet2.bin.asr_inference --ngpu 0 --data_path_and_name_and_type dump/raw/train_dev/wav.scp,speech,sound --key_file exp/asr_train_raw_en_bpe30/inference_lm_lm_train_lm_en_bpe30_valid.loss.ave_asr_model_valid.acc.best/train_dev/logdir/keys.JOB.scp --asr_train_config exp/asr_train_raw_en_bpe30/config.yaml --asr_model_file exp/asr_train_raw_en_bpe30/valid.acc.best.pth --output_dir exp/asr_train_raw_en_bpe30/inference_lm_lm_train_lm_en_bpe30_valid.loss.ave_asr_model_valid.acc.best/train_dev/logdir/output.JOB --lm_train_config exp/lm_train_lm_en_bpe30/config.yaml --lm_file exp/lm_train_lm_en_bpe30/valid.loss.ave.pth 
+# Invoked at Tue Jun 15 10:44:12 SGT 2021 from ntu-sce-headnode
+#
+# Ended (code 256) at Tue Jun 15 10:44:12 SGT 2021, elapsed time 0 seconds
