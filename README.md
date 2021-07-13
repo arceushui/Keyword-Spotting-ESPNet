@@ -1,5 +1,3 @@
-<div align="left"><img src="doc/image/espnet_logo1.png" width="550"/></div>
-
 # Keyword Spotting Alibaba
 
 This project is built using [Espnet2](https://github.com/espnet/espnet).
