@@ -28,7 +28,7 @@ This project is built using [Espnet2](https://github.com/espnet/espnet).
 
 ### Wukong wukong dataset
 
-- See the [Dataset](https://entuedu-my.sharepoint.com/:f:/g/personal/pang0208_e_ntu_edu_sg/Ep22QUyPlV9IuZsFJB4_Cq0BLKoS6DpM1M4_i5pKnRxsNg?e=6vT0sH)
+- See the [Dataset](https://entuedu-my.sharepoint.com/:f:/g/personal/pang0208_e_ntu_edu_sg/Ep22QUyPlV9IuZsFJB4_Cq0BLKoS6DpM1M4_i5pKnRxsNg)
 - Extract all the tar files in the shared folder.
 - README.pdf has some details about the dataset.
 
